@@ -28,7 +28,7 @@ export function NaszeUslugi() {
             <Karta
               p="Naprawa I Konserwacja"
               src="naprawa.png"
-              alt="Logo Naprawa"
+              alt="Logo Naprawa i konserwacja"
             ></Karta>
             <Karta
               p="Doradztwo energetyczne"
