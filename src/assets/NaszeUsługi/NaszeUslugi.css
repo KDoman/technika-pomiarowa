@@ -1,0 +1,13 @@
+.nasze-uslugi-container {
+  margin-top: var(--space-between-sections);
+}
+.nasze-uslugi_div {
+  text-align: center;
+}
+
+.nasze-uslugi-mini-div-karty {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  justify-content: space-evenly;
+}
