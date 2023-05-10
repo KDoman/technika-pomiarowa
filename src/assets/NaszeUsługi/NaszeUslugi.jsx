@@ -29,10 +29,10 @@ export function NaszeUslugi() {
           </div>
           <div className="nasze-uslugi-mini-div-karty">
             <Karta
-              title="Podłączenie Indukcji"
+              title="Indukcja"
               src="indukcja.png"
               alt="Logo indukcja"
-              p="Podłączenie kuchenki, zapewniając optymalne działanie i pełną zgodność z normami elektrycznymi"
+              p="Podłączenie indukcji, zapewniając optymalne działanie i pełną zgodność z normami elektrycznymi"
             ></Karta>
             <Karta
               title="Przyłącze Elektryczne"

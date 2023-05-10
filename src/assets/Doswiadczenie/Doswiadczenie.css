@@ -1,0 +1,22 @@
+.doswiadczenie-container {
+  text-align: center;
+  margin-top: var(--space-between-sections);
+}
+.doswiadczenie-p {
+  max-width: 60%;
+  margin: 0 auto;
+  letter-spacing: 0.1em;
+  word-spacing: 0.2em;
+  margin-top: 4em;
+}
+.doswiadczenie-div-animation {
+  margin: 5em 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.doswiadczenie-div-animation-wrap {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
