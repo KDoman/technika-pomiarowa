@@ -8,6 +8,9 @@ function App() {
     <div className="app-container">
       <Nav></Nav>
       <ONas></ONas>
+      <section>
+        <div className="bg-image-under-o-nas"></div>
+      </section>
       <NaszeUslugi></NaszeUslugi>
     </div>
   );

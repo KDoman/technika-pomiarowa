@@ -42,12 +42,13 @@
   background: url(img2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   max-width: 100%;
   content: "";
   position: absolute;
   inset: 0;
   filter: opacity(0.25);
-  background-position: 50% 35%;
+  background-position: 40% 50%;
 }
 .nav-container_under-nav-div {
   isolation: isolate;
