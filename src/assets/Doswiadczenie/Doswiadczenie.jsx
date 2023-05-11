@@ -8,21 +8,21 @@ export function Doswiadczenie() {
       <div className="doswiadczenie-div-animation">
         <div className="doswiadczenie-div-animation-wrap">
           <div className="div-animation">
-            <Animacja text="5+"></Animacja>
+            <Animacja text="5"></Animacja>
             <p>Lat doświadczenia</p>
           </div>
           <div className="div-animation">
-            <Animacja text="1000+"></Animacja>
+            <Animacja text="1000"></Animacja>
             <p>Wykonanych usług</p>
           </div>
         </div>
         <div className="doswiadczenie-div-animation-wrap">
           <div className="div-animation">
-            <Animacja text="500+"></Animacja>
-            <p>Rekomandacje</p>
+            <Animacja text="500"></Animacja>
+            <p>Rekomandacji</p>
           </div>
           <div className="div-animation">
-            <Animacja text="1000+"></Animacja>
+            <Animacja text="1000"></Animacja>
             <p>Zadowolonych klientów</p>
           </div>
         </div>
