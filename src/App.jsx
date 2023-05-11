@@ -4,10 +4,12 @@ import { Kontakt } from "./assets/Kontakt/Kontakt";
 import { NaszeUslugi } from "./assets/NaszeUsługi/NaszeUslugi";
 import { Nav } from "./assets/NavigationBar/Nav";
 import { ONas } from "./assets/O nas/ONas";
+import { Telefon } from "./assets/Telefon/Telefon";
 
 function App() {
   return (
     <div className="app-container">
+      <Telefon></Telefon>
       <Nav></Nav>
       <ONas></ONas>
       <section>

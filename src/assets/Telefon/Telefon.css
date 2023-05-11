@@ -1,0 +1,58 @@
+@keyframes telefon {
+  0% {
+    scale: 1;
+  }
+  50% {
+    scale: 1.15;
+  }
+  100% {
+    scale: 1;
+  }
+}
+
+.telefon-container {
+  position: fixed;
+  z-index: 10;
+  bottom: 30px;
+  right: 30px;
+  scale: 0.9;
+}
+
+.telefon {
+  width: 70px;
+  height: 70px;
+  background-color: rgb(71, 120, 255);
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  animation: telefon 2s infinite;
+}
+
+.telefon-text {
+  position: fixed;
+  bottom: 0px;
+  right: 30px;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 1em;
+  align-items: center;
+  background-color: whitesmoke;
+  border-radius: 3em 0 0 3em;
+  z-index: -5;
+  width: 300%;
+  height: 100%;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s ease-in-out;
+}
+.telefon-container:hover .telefon-text {
+  transform: scaleX(1);
+}
+.telefon-container:hover .telefon {
+  animation: none;
+}
+
+.telefon img {
+  max-width: 40px;
+  filter: invert(100%);
+}
