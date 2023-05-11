@@ -36,3 +36,6 @@ export function Animacja(props) {
     </div>
   );
 }
+
+// git install gsap
+// git install react-countup
