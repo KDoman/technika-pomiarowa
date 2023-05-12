@@ -25,7 +25,7 @@
   display: grid;
   place-items: center;
   border-radius: 50%;
-  animation: telefon 2s infinite;
+  animation: telefon 2s infinite 600ms;
 }
 
 .telefon-text {
