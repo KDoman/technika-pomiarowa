@@ -1,5 +1,6 @@
 import "./Doswiadczenie.css";
 import { Animacja } from "./Animacja/Animacja";
+import { motion } from "framer-motion";
 
 export function Doswiadczenie() {
   return (
@@ -7,44 +8,53 @@ export function Doswiadczenie() {
       <h1 className="doswiadczenie-h1">Doświadczenie</h1>
       <div className="doswiadczenie-div-animation">
         <div className="doswiadczenie-div-animation-wrap">
-          <div className="div-animation">
-            <Animacja
-              text="5"
-              duration="6"
-              animationDelay="0.3"
-              animationDuration="2"
-            ></Animacja>
-            <p>Lat doświadczenia</p>
-          </div>
-          <div className="div-animation">
-            <Animacja
-              text="1000"
-              duration="4"
-              animationDelay="0.6"
-              animationDuration="3"
-            ></Animacja>
-            <p>Wykonanych usług</p>
-          </div>
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.2, duration: 1.5 }}
+          >
+            <div className="div-animation">
+              <Animacja text="5" duration="8"></Animacja>
+              <p>Lat doświadczenia</p>
+            </div>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.4, duration: 1.5 }}
+          >
+            <div className="div-animation">
+              <Animacja text="1000" duration="3"></Animacja>
+              <p>Wykonanych usług</p>
+            </div>
+          </motion.div>
         </div>
+
         <div className="doswiadczenie-div-animation-wrap">
-          <div className="div-animation">
-            <Animacja
-              text="500"
-              duration="5"
-              animationDelay="0.9"
-              animationDuration="4"
-            ></Animacja>
-            <p>Rekomandacji</p>
-          </div>
-          <div className="div-animation">
-            <Animacja
-              text="1000"
-              duration="6"
-              animationDelay="1.2"
-              animationDuration="5"
-            ></Animacja>
-            <p>Zadowolonych klientów</p>
-          </div>
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.6, duration: 1.5 }}
+          >
+            <div className="div-animation">
+              <Animacja text="500" duration="3"></Animacja>
+              <p>Rekomandacji</p>
+            </div>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.8, duration: 1.5 }}
+          >
+            <div className="div-animation">
+              <Animacja text="1000" duration="3"></Animacja>
+              <p>Zadowolonych klientów</p>
+            </div>
+          </motion.div>
         </div>
       </div>
       <div className="doswiadczenie-div">

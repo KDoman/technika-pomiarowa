@@ -35,7 +35,7 @@ export function NaszeUslugi() {
               p="Podłączenie indukcji, zapewniając optymalne działanie i pełną zgodność z normami elektrycznymi"
             ></Karta>
             <Karta
-              title="Przyłącze Elektryczne"
+              title="Przyłącza Elektryczne"
               src="przylacze.png"
               alt="Logo przyłącze"
               p="Prowadzenie kabli, montaż zabezpieczeń oraz licznika"
