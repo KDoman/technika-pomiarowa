@@ -27,11 +27,11 @@ body {
   background-attachment: fixed;
 }
 .bg-image-under-o-nas {
-  background-image: url(img1.png);
+  background-image: url(imgfirst.png);
 }
 .bg-image-under-uslugi {
-  background-image: url(img3.png);
+  background-image: url(imgthird.png);
 }
 .bg-image-under-doswiadczenie {
-  background-image: url(img4.png);
+  background-image: url(imgfourth.png);
 }
