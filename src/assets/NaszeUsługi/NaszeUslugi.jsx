@@ -5,7 +5,7 @@ export function NaszeUslugi() {
   return (
     <div className="nasze-uslugi-container">
       <div className="nasze-uslugi_div">
-        <h1>Nasze usługi</h1>
+        <h1 className="nasze-uslugi-h1">Nasze usługi</h1>
         <div className="nasze-uslugi_div-karty">
           <div className="nasze-uslugi-mini-div-karty">
             <Karta

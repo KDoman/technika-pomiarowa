@@ -12,7 +12,7 @@ export function Nav() {
             transition={{ duration: 2 }}
           >
             <h1 className="nav-container_under-nav-div-h1">
-              Technika pomiarowa
+              Technika pomiarowa{" "}
             </h1>
             <img
               src="Logo.png"

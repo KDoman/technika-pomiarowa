@@ -1,10 +1,11 @@
 import "./Kontakt.css";
+import { Link } from "react-scroll";
 
 export function Kontakt() {
   return (
     <div className="kontakt-container">
       <footer>
-        <h1>Kontakt</h1>
+        <h1 className="kontakt-h1">Kontakt</h1>
         <h3>
           Skontaktuj się z nami!
           <br />
@@ -24,16 +25,48 @@ export function Kontakt() {
         <div className="footer-div-info">
           <ul className="footer-ul-redirection">
             <li className="footer-ul-redirection-li">
-              <a>O nas</a>
+              <Link
+                smooth={true}
+                offset={-140}
+                duration={1000}
+                ignoreCancelEvents={true}
+                to={"o-nas-h1"}
+              >
+                <a>O nas</a>
+              </Link>
             </li>
             <li className="footer-ul-redirection-li">
-              <a>Nasze usługi</a>
+              <Link
+                smooth={true}
+                offset={-140}
+                duration={1000}
+                ignoreCancelEvents={true}
+                to={"nasze-uslugi-h1"}
+              >
+                <a>Nasze usługi</a>
+              </Link>
             </li>
             <li className="footer-ul-redirection-li">
-              <a>Doświadczenie</a>
+              <Link
+                smooth={true}
+                offset={-140}
+                duration={1000}
+                ignoreCancelEvents={true}
+                to={"doswiadczenie-h1"}
+              >
+                <a>Doświadczenie</a>
+              </Link>
             </li>
             <li className="footer-ul-redirection-li">
-              <a>Kontakt</a>
+              <Link
+                smooth={true}
+                offset={-200}
+                duration={1000}
+                ignoreCancelEvents={true}
+                to={"kontakt-h1"}
+              >
+                <a>Kontakt</a>
+              </Link>
             </li>
           </ul>
         </div>

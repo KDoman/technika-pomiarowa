@@ -5,11 +5,7 @@
   justify-content: center;
   align-items: center;
 }
-.nav-container_img-next-to-h1 {
-  display: block;
 
-  margin: 0 auto;
-}
 .nav-container_under-nav-section::before {
   background: url(img2.jpg);
   background-size: cover;

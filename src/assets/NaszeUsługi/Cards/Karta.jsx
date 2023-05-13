@@ -7,7 +7,7 @@ export function Karta(props) {
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      transition={{ delay: 0.2, duration: 1.5 }}
+      transition={{ delay: 0.2, duration: 2 }}
     >
       <div className="karta-container">
         <div className="karta-container-div">
