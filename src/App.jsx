@@ -3,7 +3,7 @@ import { Doswiadczenie } from "./assets/Doswiadczenie/Doswiadczenie";
 import { Kontakt } from "./assets/Kontakt/Kontakt";
 import { NaszeUslugi } from "./assets/NaszeUsługi/NaszeUslugi";
 import { Nav } from "./assets/NavigationBar/Nav";
-import { ONas } from "./assets/O nas/ONas";
+import { ONas } from "./assets/ONas/ONas";
 import { Telefon } from "./assets/Telefon/Telefon";
 
 function App() {
