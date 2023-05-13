@@ -27,7 +27,7 @@ body {
   background-attachment: fixed;
 }
 .bg-image-under-o-nas {
-  background-image: url(imgfirst.png);
+  background-image: url(/technika-pomiarowa/public/imgfirst.png);
 }
 .bg-image-under-uslugi {
   background-image: url(imgthird.png);
