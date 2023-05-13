@@ -7,7 +7,7 @@
 }
 
 .nav-container_under-nav-section::before {
-  background: url(img2.jpg);
+  background: url(img2.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
