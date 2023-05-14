@@ -12,7 +12,7 @@ export function Doswiadczenie() {
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ delay: 0.2, duration: 1.5 }}
+            transition={{ delay: 0.2, duration: 1 }}
           >
             <div className="div-animation">
               <Animacja text="5" duration="8"></Animacja>
@@ -23,7 +23,7 @@ export function Doswiadczenie() {
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ delay: 0.4, duration: 1.5 }}
+            transition={{ delay: 0.4, duration: 1 }}
           >
             <div className="div-animation">
               <Animacja text="1000" duration="3"></Animacja>
@@ -37,7 +37,7 @@ export function Doswiadczenie() {
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ delay: 0.6, duration: 1.5 }}
+            transition={{ delay: 0.6, duration: 1 }}
           >
             <div className="div-animation">
               <Animacja text="500" duration="3"></Animacja>
@@ -48,7 +48,7 @@ export function Doswiadczenie() {
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ delay: 0.8, duration: 1.5 }}
+            transition={{ delay: 0.8, duration: 1 }}
           >
             <div className="div-animation">
               <Animacja text="1000" duration="3"></Animacja>

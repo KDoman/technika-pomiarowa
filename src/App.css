@@ -21,11 +21,10 @@ body {
 .bg-image-under-doswiadczenie {
   margin-top: var(--space-between-sections);
   height: 70vh;
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
   opacity: 0.5;
   background-position: 50% 0;
-  background-attachment: fixed;
-  max-width: 100%;
 }
 .bg-image-under-o-nas {
   background-image: url(../imgfirst.png);
@@ -35,4 +34,11 @@ body {
 }
 .bg-image-under-doswiadczenie {
   background-image: url(../imgfourth.png);
+}
+@media screen and (min-width: 1024px) {
+  .bg-image-under-o-nas,
+  .bg-image-under-uslugi,
+  .bg-image-under-doswiadczenie {
+    background-attachment: fixed;
+  }
 }

@@ -7,6 +7,7 @@ export function Animacja(props) {
       <CountUp
         end={props.text}
         duration={props.duration}
+        delay={props.delay}
         separator=" "
         suffix="+"
         enableScrollSpy

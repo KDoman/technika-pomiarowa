@@ -30,9 +30,3 @@
 .nav-container_under-nav-div-p {
   font-weight: 700;
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-  only screen and (min-device-pixel-ratio: 1.5) {
-  .nav-container_under-nav-section::before {
-    background-image: url(../imgsecond.png);
-  }
-}
